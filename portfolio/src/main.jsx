@@ -1,4 +1,12 @@
 import ReactDOM from 'react-dom/client'
+import { User } from './User'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<h1>Portfolio Steeven Gualan</h1>)
+root.render(<>
+    <User/>
+    <User/>
+    <User/>
+    <User/>
+
+</>);
