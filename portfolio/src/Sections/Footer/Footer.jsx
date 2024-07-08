@@ -1,7 +1,9 @@
+import "./Footer.css";
+
 export function Footer() {
-    return (
-        <div>
-            <h2>pie de pagina</h2>
-        </div>
-    );
+  return (
+    <div className="footer_section">
+      <p>© Steeven Gualan (Steeven_Dev) | Fullstack Developer</p>
+    </div>
+  );
 }
