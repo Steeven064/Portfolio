@@ -1,0 +1,54 @@
+.first-block {
+  padding-top: 135px;
+  padding-bottom: 200px;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  background-image: url(/images/pxfuel.jpg);
+  min-height: 65dvh;
+}
+
+.image-block {
+  width: 270px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 400px,
+    rgba(255, 255, 255, 0.12) 0px 0px 100px;
+}
+
+.about-me-block {
+  width: 70%;
+  font-size: 21px;
+  color: aliceblue;
+  text-align: center ;
+  line-height:27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px 0;
+}
+
+.typed-text {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  margin: 20px;
+}
+
+.floating {
+  display: inline-block;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

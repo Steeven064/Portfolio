@@ -1,22 +1,23 @@
 import {Link} from 'react-scroll';
 import "./nav.css";
+import 'animate.css';
 
 export function Nav() {
   return (
     <div className='nav_section'>
       <div className='nav_content'>
-        <div className='logo'>
-          <Link>
+        <div className='logo animate__animated animate__fadeInLeft'>
+          <Link >
           &lt;Steeven_Dev/&gt;
           </Link>
         </div>
         <div>
           <nav className='menu_list'>
             <ul>
-              <li>
+              <li className='animate__animated animate__zoomIn'>
               <Link
                 activeClass="active"
-                to="about_me"
+                //to="about_me"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -26,10 +27,10 @@ export function Nav() {
                 Sobre Mí
               </Link>
               </li>
-              <li>
+              <li className='animate__animated animate__zoomIn'>
                 <Link
                 activeClass="active"
-                to="about_me"
+                //to="about_me"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -38,10 +39,10 @@ export function Nav() {
                   Hablidades
                 </Link>
               </li>
-              <li>
+              <li className='animate__animated animate__zoomIn'>
                 <Link
                 activeClass="active"
-                to="about_me"
+                //to="about_me"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -50,10 +51,10 @@ export function Nav() {
                   Proyectos
                 </Link>
               </li>
-              <li>
+              <li className='animate__animated animate__zoomIn'>
                 <Link
                 activeClass="active"
-                to="about_me"
+                //to="about_me"
                 spy={true}
                 smooth={true}
                 offset={0}

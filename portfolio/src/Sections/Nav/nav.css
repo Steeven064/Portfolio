@@ -1,59 +1,51 @@
+
 .nav_section {
-    scroll-behavior: smooth;
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    border-bottom: 3px solid #f1f1f1;
-    z-index: 10;
-    .nav_content {
-      max-width: 1000px;
-      margin: auto;
-      flex-flow: row nowrap;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 55px;
-  
-      .logo a {
-        margin-left: 10px;
-        cursor: pointer;
-        font-weight: bold;
-        font-size: 20px;
-        color: #333;
-      }
-      .icon-menu{
-        display: none;
-      }
-      .menu_list {
-        margin-right: 10px;
-        ul {
-          list-style: none;
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: flex-end;
-          align-items: center;
-          padding-left: 0;
-          gap: 15px;
-          li {
-            a {
-              display: block;
-              color: #333;
-              text-decoration: none;
-              cursor: pointer;
-              font-size: 17px;
-              font-weight: bold;
-              padding: 5px;
-              transition: 0.3s ease-in-out all;
-            }
-            .flag_lenguage {
-              vertical-align: middle;
-              width: 25px;
-              height: 25px;
-              cursor: pointer;
-            }
+  scroll-behavior: smooth;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  .nav_content {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+    .logo a {
+      margin-left: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      transition: color 0.3s ease;
+    }
+    .logo a:hover {
+      color: cornflowerblue;
+    }
+    .menu_list {
+      margin-right: 10px;
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        li {
+          a {
+            display: block;
+            color: cornflowerblue;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 15px;
+            transition: color 0.3s ease;
+          }
+          a:hover {
+            color: aqua;
           }
         }
       }
     }
+  }
 }
