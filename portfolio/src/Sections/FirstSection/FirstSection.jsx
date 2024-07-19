@@ -1,7 +1,9 @@
 import "./firstSection.css";
 import "animate.css";
 import { TypedText } from "./TypedText.jsx";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { TbBrandGithubFilled, TbDownload    } from "react-icons/tb";
+import { Button } from 'semantic-ui-react'
 
 export function FirstSection() {
   return (
@@ -9,7 +11,7 @@ export function FirstSection() {
       <div className="floating">
         <img
           src="/images/yo.jpg"
-          alt="Mi foto"
+          alt="Foto"
           className="image-block animate__animated animate__fadeIn"
         />
       </div>
@@ -27,24 +29,36 @@ export function FirstSection() {
         innovadores.
       </span>
 
+      <div className="animate__animated animate__fadeInUp">
+        <ul className="social-block">
+          <li >
+            <a className="icon-block"
+              href="https://github.com/Steeven064"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i><TbBrandGithubFilled className="icon github-icon" /></i>
+            </a>
+          </li>
+          <li>
+            <a className="icon-block"
+              href="https://www.linkedin.com/in/steevendeveloper/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn className="icon linkedin-icon" />
+            </a>
+          </li>
+          <li>
+            <a className="icon-block" href="steevengualan@gmail.com">
+              <FaEnvelope className="icon email-icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
       <div>
-        <a
-          href="https://github.com/Steeven064"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub className="icon github-icon" />
-        </a>
-        <a
-          href="https://linkedin.com/in/tucuenta"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin className="icon linkedin-icon" />
-        </a>
-        <a href="mailto:tucorreo@gmail.com">
-          <FaEnvelope className="icon email-icon" />
-        </a>
+        <Button color='green'>Descargar CV <TbDownload/></Button>
       </div>
     </div>
   );

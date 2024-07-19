@@ -22,8 +22,8 @@
   width: 70%;
   font-size: 21px;
   color: aliceblue;
-  text-align: center ;
-  line-height:27px;
+  text-align: center;
+  line-height: 27px;
   flex-direction: column;
   align-items: center;
   gap: 7px 0;
@@ -39,6 +39,75 @@
 .floating {
   display: inline-block;
   animation: float 3s ease-in-out infinite;
+}
+
+.social-block {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  li {
+    margin-right: 20px;
+    list-style: none;
+    text-align: center;
+    a {
+      width: 40px;
+      height: 40px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      background-color: white;
+      border-radius: 20%;
+      line-height: 56px;
+      .icon {
+        position: relative;
+        text-align: center;
+        font-size: 25px;
+        transition: 0.5s;
+        color: #262626;
+        z-index: 3;
+      }
+    }
+    a:hover .icon {
+      color: #fff;
+      transform: rotateY(360deg);
+    }
+    a:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f00;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    a:hover:before {
+      top: 0;
+    }
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  li a:hover:before {
+    top: 0;
+  }
+  li:nth-child(1) a:before {
+    background: #2c2c2c;
+  }
+  li:nth-child(2) a:before{
+    background: #0077b5;
+  }
+  li:nth-child(3) a:before{
+    background: #dd4b39;
+  }
+}
+
+.download-block{
+  text-align: center;
+  align-items: center;
 }
 
 @keyframes float {
