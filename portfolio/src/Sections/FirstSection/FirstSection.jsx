@@ -2,8 +2,8 @@ import "./firstSection.css";
 import "animate.css";
 import { TypedText } from "./TypedText.jsx";
 import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
-import { TbBrandGithubFilled, TbDownload    } from "react-icons/tb";
-import { Button } from 'semantic-ui-react'
+import { TbBrandGithubFilled, TbDownload } from "react-icons/tb";
+import { Button } from "semantic-ui-react";
 
 export function FirstSection() {
   return (
@@ -31,17 +31,21 @@ export function FirstSection() {
 
       <div className="animate__animated animate__fadeInUp">
         <ul className="social-block">
-          <li >
-            <a className="icon-block"
+          <li>
+            <a
+              className="icon-block"
               href="https://github.com/Steeven064"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i><TbBrandGithubFilled className="icon github-icon" /></i>
+              <i>
+                <TbBrandGithubFilled className="icon github-icon" />
+              </i>
             </a>
           </li>
           <li>
-            <a className="icon-block"
+            <a
+              className="icon-block"
               href="https://www.linkedin.com/in/steevendeveloper/"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,8 +61,14 @@ export function FirstSection() {
         </ul>
       </div>
 
-      <div>
-        <Button color='green'>Descargar CV <TbDownload/></Button>
+      <div
+        data-aos="fade-up"
+        data-aos-offset="350"
+        className="download-block"
+      >
+        <Button color="green">
+          Descargar CV <TbDownload />
+        </Button>
       </div>
     </div>
   );

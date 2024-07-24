@@ -1,0 +1,28 @@
+.aboutme-block {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin:auto;
+  padding-top: 30px;
+  max-width: 70%;
+  .item {
+    width: 50%;
+    p {
+      font-size: 20px;
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+  }
+}
+
+
+.title {
+  color: aliceblue;
+  font-size: 50px;
+  min-height: 80px;
+}
+
+.about-me-section{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(4, 0, 23) 50%);
+    
+}

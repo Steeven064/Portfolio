@@ -8,7 +8,7 @@ export function Nav() {
       <div className='nav_content'>
         <div className='logo animate__animated animate__fadeInLeft'>
           <Link >
-          &lt;Steeven_Dev/&gt;
+          &lt;Ing. Steeven/&gt;
           </Link>
         </div>
         <div>
