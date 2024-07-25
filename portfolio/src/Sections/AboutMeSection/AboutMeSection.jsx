@@ -1,11 +1,12 @@
 import "./aboutMeSection.css";
+import { LottieAnimation } from "./LottieAnimation";
 
 export function AboutMeSection() {
   return (
-    <section id="about-me-section" className="about-me-section">
+    <section id="aboutme" className="about-me-section">
       <div className="aboutme-block">
-        <div className="item">
-          <h1 className="title">Sobre Mi.</h1>
+        <div className="item" data-aos="zoom-in-down" data-aos-offset="430">
+          <h1 className="title">Sobre Mi</h1>
           <p>
             Hola, soy Steeven Gualan, tengo 24 años y soy de Ecuador. <b>Ingeniero en Software Junior</b>, Web Developer y Desarrollador
             Fullstack, con habilidades técnicas en lenguajes de programación
@@ -25,8 +26,8 @@ export function AboutMeSection() {
           </p>
         </div>
 
-        <div className="item">
-          <h1>IMAGE</h1>
+        <div className="item" data-aos="fade-up-left" data-aos-offset="460">
+          <LottieAnimation/>
         </div>
       </div>
     </section>
