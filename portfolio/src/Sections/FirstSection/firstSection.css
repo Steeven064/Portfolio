@@ -29,9 +29,9 @@
 .image-block {
   width: 270px;
   height: auto;
-  border-radius: 50%;
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 400px,
-    rgba(255, 255, 255, 0.12) 0px 0px 100px;
+  border-radius: 90%;
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 400px,
+    rgba(255, 255, 255, 0.371) 0px 0px 100px;
 }
 
 .about-me-block {
@@ -47,7 +47,7 @@
 
 .typed-text {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 30px;
   color: white;
   margin: 20px;
 }
@@ -75,7 +75,7 @@
       z-index: 1;
       background-color: white;
       border-radius: 20%;
-      line-height: 56px;
+      line-height: 57px;
       .icon {
         position: relative;
         text-align: center;

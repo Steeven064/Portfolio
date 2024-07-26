@@ -1,7 +1,8 @@
 import "semantic-ui-css/semantic.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Nav, 
+import { Cursor,
+         Nav, 
          Footer, 
          FirstSection, 
          AboutMeSection,
@@ -20,6 +21,7 @@ export function Home() {
 
   return (
     <>
+    <Cursor />
       <header>
         <Nav />
       </header>

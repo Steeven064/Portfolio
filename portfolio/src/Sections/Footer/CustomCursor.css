@@ -1,0 +1,13 @@
+/* CustomCursor.css */
+.custom-cursor {
+    position: fixed;
+    width: 1500px;
+    height: 1500px;
+    pointer-events: none; /* Permite hacer clic a través del cursor personalizado */
+    border-radius: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.228) -90%, rgba(255, 255, 255, 0) 65%);
+    transition: transform 9.1s ease, background 0.1s ease;
+    mix-blend-mode: difference; /* Mejora la visibilidad del cursor sobre fondos de diferentes colores */
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
