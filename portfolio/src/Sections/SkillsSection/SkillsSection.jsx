@@ -4,11 +4,19 @@ export function SkillsSection() {
   return (
     <section id="skills" className="skill-section">
       <div className="skill-container">
-        <h1 className="title">Habilidades</h1>
+        <h1 className="title" data-aos="fade-right">
+          Habilidades
+        </h1>
         <div className="skills">
           <div className="front">
-            <h1>Front-End</h1>
-            <div className="skills-block">
+            <h1 data-aos="fade-up-right" data-aos-offset="300">
+              Front-End
+            </h1>
+            <div
+              className="skills-block"
+              data-aos="zoom-in-up"
+              data-aos-offset="430"
+            >
               <div className="skill-item">
                 <img src="./skills/html.svg" alt="HTML" />
                 HTML5
@@ -37,8 +45,14 @@ export function SkillsSection() {
           </div>
 
           <div className="back">
-            <h1>Back-End</h1>
-            <div className="skills-block">
+            <h1 data-aos="fade-up-right" data-aos-offset="350">
+              Back-End
+            </h1>
+            <div
+              className="skills-block"
+              data-aos="zoom-in-up"
+              data-aos-offset="430"
+            >
               <div className="skill-item">
                 <img src="./skills/node-js.svg" alt="NODE-JS" />
                 Node
@@ -55,8 +69,14 @@ export function SkillsSection() {
           </div>
 
           <div className="testing">
-            <h1>Testing</h1>
-            <div className="skills-block">
+            <h1 data-aos="fade-up-right" data-aos-offset="350">
+              Testing
+            </h1>
+            <div
+              className="skills-block"
+              data-aos="zoom-in-up"
+              data-aos-offset="430"
+            >
               <div className="skill-item">
                 <img src="./skills/jest.svg" alt="JEST" />
                 Jest
@@ -72,8 +92,14 @@ export function SkillsSection() {
           </div>
 
           <div className="database">
-            <h1>Base de Datos</h1>
-            <div className="skills-block">
+            <h1 data-aos="fade-up-right" data-aos-offset="350">
+              Base de Datos
+            </h1>
+            <div
+              className="skills-block"
+              data-aos="zoom-in-up"
+              data-aos-offset="430"
+            >
               <div className="skill-item">
                 <img src="./skills/postgresql.svg" alt="POSTGRESQL" />
                 PostgreSQL
@@ -94,8 +120,14 @@ export function SkillsSection() {
           </div>
 
           <div className="others">
-            <h1>Otras Herramientas</h1>
-            <div className="skills-block">
+            <h1 data-aos="fade-up-right" data-aos-offset="350">
+              Otras Herramientas
+            </h1>
+            <div
+              className="skills-block"
+              data-aos="zoom-in-up"
+              data-aos-offset="430"
+            >
               <div className="skill-item">
                 <img src="./skills/figma.svg" alt="FIGMA" />
                 Figma

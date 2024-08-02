@@ -64,7 +64,7 @@ export function Nav() {
               <li className="animate__animated animate__zoomIn">
                 <Link
                   activeClass="active"
-                  //to="about_me"
+                  to="contact"
                   spy={true}
                   smooth={true}
                   offset={0}

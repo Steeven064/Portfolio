@@ -6,7 +6,9 @@ import { Cursor,
          Footer, 
          FirstSection, 
          AboutMeSection,
-         SkillsSection } from "../Sections";
+         SkillsSection,
+         ContactSection,
+        ProjectSection } from "../Sections";
 import { useEffect } from "react";
 
 export function Home() {
@@ -29,6 +31,8 @@ export function Home() {
         <FirstSection />
         <AboutMeSection />
         <SkillsSection/>
+        <ProjectSection/>
+        <ContactSection/>
       </main>
       <footer>
         <Footer />
